@@ -48,8 +48,6 @@ public class Map_students {
                 System.out.println("학번을 입력해주세요.");
                 int newID = sc.nextInt();
 
-                ArrayList oneStudent = Student.get(newID);
-
                 System.out.println("학번 : " + newID + "\n이름 : " + Student.get(newID).get(0) + "\n생일 : " + Student.get(newID).get(1) + "\n학과 : " + Student.get(newID).get(2));
                 System.out.println();
 
